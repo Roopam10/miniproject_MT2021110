@@ -1,2 +1,1 @@
-[ubuntu18]
-172.16.131.214 ansible_user=cris
+localhost ansible_ssh_pass=Roopam@10 ansible_ssh_user=cristiano
