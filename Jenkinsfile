@@ -1,4 +1,10 @@
 pipeline {
+    environment{
+
+    registry ="cristiano10/calculator_roopam"
+    registryCredential= 'docker-cred'
+    dockerImage=''
+    }
     agent any
     stages{
         stage('step 1 git pull'){
@@ -17,6 +23,24 @@ pipeline {
             steps {
                 sh "mvn test"
             }
+        }
+        stage('step 4 building docker image')
+        {
+        steps{
+            script{
+                dockerImage=docker.build registry + ":latest"
+                }
+            }
+        }
+        stage('step 5 push docker image to dockerhub')
+        {
+        steps{
+            script{
+                docker.withRegistry('', registryCredential){
+                dockerImage.push()
+                }
+            }
+        }
         }
     }
 }
