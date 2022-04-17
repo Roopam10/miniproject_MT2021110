@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 public class Controller {
-    private static final Logger logger = LogManager.getLogger("calculatorController");
+    private static final Logger logger = LogManager.getLogger("Controller");
     @RequestMapping(value="/getSqrt", method=RequestMethod.POST)
     public double getSquareRoot(@RequestBody Map<String, String> val) {
         double input1 = Double.parseDouble(val.get("input1"));

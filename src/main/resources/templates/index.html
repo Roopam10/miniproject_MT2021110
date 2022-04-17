@@ -12,7 +12,6 @@
         const option = document.getElementById("calc").value;
         const base = "http://localhost:8081";
 
-        // console.log(option);
 
         if(option == "log") {
             fetch(base+'/getLog', {
@@ -30,7 +29,6 @@
                 });
         }
         else if(option == "fact") {
-            // console.log(a);
             fetch(base+'/getFact', {
                 method: 'POST',
                 headers: {
