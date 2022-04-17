@@ -2,9 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Scientific Calculator</title>
 </head>
 <body>
-<h1> Hello World</h1>
+<script>
+    function myFunc() {
+        const a = document.getElementById("input1").value;
+        const b = document.getElementById("input2").value;
+        const option = document.getElementById("calc").value;
+        const base = "http://localhost:8081";
+
+        // console.log(option);
+
+        if(option == "log") {
+            fetch(base+'/getLog', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify({
+                    input1:a.toString(),
+                    input2:b.toString()
+                })
+            }).then(response => response.json())
+                .then((data) => {
+                    document.getElementById("result").value = data;
+                });
+        }
+        else if(option == "fact") {
+            // console.log(a);
+            fetch(base+'/getFact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify({
+                    input1:a.toString(),
+                    input2:b.toString()
+                })
+            }).then(response => response.json())
+                .then((data) => {
+                    // console.log(data);
+                    document.getElementById("result").value = data;
+                });
+        }
+        else if(option == "sqrt") {
+            fetch(base+'/getSqrt', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify({
+                    input1:a.toString(),
+                    input2:b.toString()
+                })
+            }).then(response => response.json())
+                .then((data) => {
+                    document.getElementById("result").value = data;
+                });
+        }
+        else if(option == "pow") {
+            fetch(base+'/getPow', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify({
+                    input1:a.toString(),
+                    input2:b.toString()
+                })
+            }).then(response => response.json())
+                .then((data) => {
+                    document.getElementById("result").value = data;
+                });
+        }
+        else {
+
+        }
+    }
+</script>
+
+<input type="number" id="input1">
+<input type="number" id="input2">
+<select name="calc" id="calc">
+    <option value="log">Logarithm</option>
+    <option value="fact">Factorial</option>
+    <option value="sqrt">Square Root</option>
+    <option value="pow">Power</option>
+</select>
+<button onclick="myFunc()">Calculate</button>
+<input type="number" id="result">
 </body>
 </html>
