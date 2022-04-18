@@ -1,1 +1,61 @@
 17/Apr/2022:13:10:19 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 5.0INPUT25.0OUTPUT = 3125.0
+17/Apr/2022:15:04:15 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 5.0OUTPUT = 0.6989700043360189
+17/Apr/2022:15:05:23 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 10.0INPUT22.0OUTPUT = 100.0
+17/Apr/2022:16:43:47 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 10.0INPUT22.0OUTPUT = 100.0
+17/Apr/2022:16:43:56 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 900.0OUTPUT = 30.0
+17/Apr/2022:16:44:00 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 34.0OUTPUT = 5.830951894845301
+17/Apr/2022:16:45:22 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 565.0OUTPUT = 23.769728648009426
+17/Apr/2022:16:45:30 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 565.0OUTPUT = 23.769728648009426
+17/Apr/2022:16:45:43 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 1111.0OUTPUT = 33.331666624997915
+17/Apr/2022:16:45:47 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 123.0OUTPUT = 11.090536506409418
+17/Apr/2022:16:45:50 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 555.0OUTPUT = 23.558437978779494
+17/Apr/2022:16:45:55 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 63654.0OUTPUT = 252.29744350666735
+17/Apr/2022:16:45:59 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 345667.0OUTPUT = 587.9345201635978
+17/Apr/2022:16:46:02 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 345667.0OUTPUT = 5.538657920468099
+17/Apr/2022:16:46:08 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3687.0OUTPUT = 3.5666731376061165
+17/Apr/2022:16:46:11 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3687567.0OUTPUT = 6.566739919824442
+17/Apr/2022:16:46:14 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3.687567654E9OUTPUT = 9.566739996847739
+17/Apr/2022:16:46:16 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3.6875676545646E13OUTPUT = 13.566739996914233
+17/Apr/2022:16:46:18 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3.6875676545646547E17OUTPUT = 17.56673999691424
+17/Apr/2022:16:46:20 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 3.6875676545646546E20OUTPUT = 20.56673999691424
+17/Apr/2022:16:46:25 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 67554.0OUTPUT = 4.829651069516388
+17/Apr/2022:16:46:27 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 43443.0OUTPUT = 4.637919808258017
+17/Apr/2022:16:46:30 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 43443.0OUTPUT = 4.637919808258017
+17/Apr/2022:16:46:33 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 1.0OUTPUT = 0.0
+17/Apr/2022:16:46:37 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 6775.0OUTPUT = 3.8309092995464433
+17/Apr/2022:16:46:40 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 32.0OUTPUT = 1.505149978319906
+17/Apr/2022:16:46:58 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 234.0OUTPUT = 2.369215857410143
+17/Apr/2022:16:46:59 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 234.0OUTPUT = 2.369215857410143
+17/Apr/2022:16:46:59 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 234.0OUTPUT = 2.369215857410143
+17/Apr/2022:16:46:59 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 234.0OUTPUT = 2.369215857410143
+17/Apr/2022:16:47:05 +0530 [Controller.java] [INFO] Controller [Logarithm] - INPUT = 234567.0OUTPUT = 5.370266913465859
+17/Apr/2022:16:47:13 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 12.0OUTPUT = 4.790016E8
+17/Apr/2022:16:47:18 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 152.0OUTPUT = 1.3113358856834527E267
+17/Apr/2022:16:47:24 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 3.0OUTPUT = 6.0
+17/Apr/2022:16:47:27 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 4.0OUTPUT = 24.0
+17/Apr/2022:16:47:31 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 5.0OUTPUT = 120.0
+17/Apr/2022:16:47:34 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 6.0OUTPUT = 720.0
+17/Apr/2022:16:47:36 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 7.0OUTPUT = 5040.0
+17/Apr/2022:16:47:39 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 8.0OUTPUT = 40320.0
+17/Apr/2022:16:47:41 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 9.0OUTPUT = 362880.0
+17/Apr/2022:16:47:45 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 10.0OUTPUT = 3628800.0
+17/Apr/2022:16:47:48 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 20.0OUTPUT = 2.43290200817664E18
+17/Apr/2022:16:47:52 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 18.0OUTPUT = 6.402373705728E15
+17/Apr/2022:16:47:55 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 17.0OUTPUT = 3.55687428096E14
+17/Apr/2022:16:48:00 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 176.0OUTPUT = Infinity
+17/Apr/2022:16:48:01 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 176.0OUTPUT = Infinity
+17/Apr/2022:16:48:04 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 16.0OUTPUT = 2.0922789888E13
+17/Apr/2022:16:48:07 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 16.0OUTPUT = 2.0922789888E13
+17/Apr/2022:16:48:10 +0530 [Controller.java] [INFO] Controller [Factorial] - INPUT = 14.0OUTPUT = 8.71782912E10
+17/Apr/2022:16:48:54 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 14.0INPUT22.0OUTPUT = 196.0
+17/Apr/2022:16:48:56 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 14.0INPUT23.0OUTPUT = 2744.0
+17/Apr/2022:16:49:00 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 14.0INPUT26.0OUTPUT = 7529536.0
+17/Apr/2022:16:49:03 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 14.0INPUT246.0OUTPUT = 5.270959037839539E52
+17/Apr/2022:16:49:07 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 2.0INPUT246.0OUTPUT = 7.0368744177664E13
+17/Apr/2022:16:49:10 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 2.0INPUT24.0OUTPUT = 16.0
+17/Apr/2022:16:49:13 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 2.0INPUT28.0OUTPUT = 256.0
+17/Apr/2022:16:49:17 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 2.0INPUT2123.0OUTPUT = 1.0633823966279327E37
+17/Apr/2022:16:49:23 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 9.0INPUT212.0OUTPUT = 2.82429536481E11
+17/Apr/2022:16:49:27 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 9.0INPUT213.0OUTPUT = 2.541865828329E12
+18/Apr/2022:15:06:44 +0530 [Controller.java] [INFO] Controller [Power] - INPUT1 = 2.0INPUT23.0OUTPUT = 8.0
+18/Apr/2022:15:09:07 +0530 [Controller.java] [INFO] Controller [Square Root] - INPUT = 625.0OUTPUT = 25.0

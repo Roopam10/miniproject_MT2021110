@@ -1,6 +1,5 @@
 pipeline {
     environment{
-
     registry ="cristiano10/calculator_roopam"
     registryCredential= 'docker-cred'
     dockerImage=''
@@ -18,7 +17,6 @@ pipeline {
                 sh "mvn -B -DskipTests clean package"
             }
         }
-
         stage('step 3 Test'){
             steps {
                 sh "mvn test"
